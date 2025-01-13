@@ -561,6 +561,7 @@ namespace neopixel {
      */
     //% blockId="neopixe_hsl" block="hue %h|saturation %s|luminosity %l"
     export function hsl(h: number, s: number, l: number): number {
+
         h = Math.round(h);
         s = Math.round(s);
         l = Math.round(l);
