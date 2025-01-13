@@ -23,7 +23,7 @@
   "neopixel.Strip.show|block": "%strip|を設定した色で点灯する",
   "neopixel.Strip.clear|block": "%strip|の設定を削除する",
 
-  "neopixel.hsl|block": "HSL（色相%hue|彩度%sat|輝度%lum）",
+  "neopixel.hsl|block": "HSL（色相%h|彩度%s|輝度%l）",
 
   "neopixel.Strip.shift|block": "%strip|に設定されている色をLED%offset|個分ずらす",
   "neopixel.Strip.rotate|block": "%strip|に設定されている色をLED%offset|個分ずらす（ひとまわり）",

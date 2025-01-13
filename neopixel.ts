@@ -555,15 +555,15 @@ namespace neopixel {
 
     /**
      * Converts a hue saturation luminosity value into a RGB color
-     * @param hue hue from 0 to 360
-     * @param sat saturation from 0 to 99
-     * @param lum luminosity from 0 to 99
+     * @param h hue from 0 to 360
+     * @param s saturation from 0 to 99
+     * @param l luminosity from 0 to 99
      */
     //% blockId="neopixe_hsl" block="hue %h|saturation %s|luminosity %l"
-    export function hsl(hue: number, sat: number, lum: number): number {
-        let h = Math.round(hue);
-        let s = Math.round(sat);
-        let l = Math.round(lum);
+    export function hsl(h: number, s: number, l: number): number {
+        h = Math.round(hue);
+        s = Math.round(sat);
+        l = Math.round(lum);
 
         h = h % 360;
         s = Math.clamp(0, 99, s);
