@@ -560,10 +560,10 @@ namespace neopixel {
      * @param l luminosity from 0 to 99
      */
     //% blockId="neopixe_hsl" block="hue %h|saturation %s|luminosity %l"
-    export function hsl(h: number, s: number, l: number): number {
-        h = Math.round(h);
-        s = Math.round(s);
-        l = Math.round(l);
+    export function hsl(hue: number, sat: number, lum: number): number {
+        h = Math.round(hue);
+        s = Math.round(sat);
+        l = Math.round(lum);
 
         h = h % 360;
         s = Math.clamp(0, 99, s);
