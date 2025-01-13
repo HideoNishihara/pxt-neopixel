@@ -22,8 +22,8 @@
 
   "neopixel.Strip.power": "現在のライト構成で消費される電流 (mA) を推定します。",
 
-  "neopixel.Strip.setMatrixWidth": "マトリックス状に配置されたストリップのピクセル数を設定します。",
-  "neopixel.Strip.setMatrixColor": "マトリックス状に配置されたストリップのLEDを、指定した色（r、g、b は 0～255 の範囲）に設定します。変更を反映させるためには、その後に「指定した色で点灯する」が必要です。",
+  "neopixel.Strip.setMatrixWidth": "マトリックス状に配置されたストリップのピクセル配置を設定します。",
+  "neopixel.Strip.setMatrixColor": "マトリックス状に配置されたストリップの指定ピクセルの色を設定します。変更を反映させるためには、その後に「指定した色で点灯する」が必要です。",
 
   "neopixel.colors": "既知の色のRGB値を取得します。",
   "neopixel.rgb": "赤・緑・青のチャンネルをRGBカラーに変換します。",

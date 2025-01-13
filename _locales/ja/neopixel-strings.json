@@ -34,14 +34,14 @@
   "neopixel.Strip.setBrightness|block": "%strip|の明るさを%brightness|に設定する",
   "neopixel.Strip.easeBrightness|block": "%strip|に設定されている色を明るさで調整する",
 
-  "neopixel.Strip.power|block": "%strip|消費電流（mA）",
+  "neopixel.Strip.power|block": "%strip|の消費電流（mA）",
 
-  "neopixel.Strip.setMatrixWidth|block": "set|matrix|width|%width|rotation|%rotation|chain|%chain",
-  "neopixel.Strip.setMatrixColor|block": "set|matrix|color|at|x|%x|y|%y|to|%rgb",
+  "neopixel.Strip.setMatrixWidth|block": "マトリックスの形状（width|%width|rotation|%rotation|chain|%chain）",
+  "neopixel.Strip.setMatrixColor|block": "マトリックスの座標|x|%x|y|%y|を|%rgb|で点灯する",
 
   "neopixel.colors|block": "%color",
   "neopixel.rgb|block": "RGB（赤%red|緑%green|青%blue|）",
 
-  "neopixel.HSL.rotateHue|block": "HSL%hsl|の色相を%offset|ずらす",
-  "neopixel.HSL.toRGB|block": "HSL%hsl|をRGBに変換"
+  "neopixel.HSL.rotateHue|block": "HSL|%hsl|の色相を%offset|ずらす",
+  "neopixel.HSL.toRGB|block": "HSL|%hsl|をRGBに変換"
 }
