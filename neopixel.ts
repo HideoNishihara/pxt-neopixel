@@ -196,7 +196,7 @@ namespace neopixel {
          * @param rotation type of matrix
          * @param chain type of matrix
          */
-        //% blockId="neopixel_set_matrix_width" block="%strip|set matrix width %width|rotation %rotation|chain %chain|"
+        //% blockId="neopixel_set_matrix_width" block="%strip|set matrix width %width|rotation %rotation|chain %chain"
         //% blockGap=8
         //% weight=5
         //% parts="neopixel" advanced=true
@@ -213,7 +213,7 @@ namespace neopixel {
          * @param y horizontal position
          * @param rgb RGB color of the LED
          */
-        //% blockId="neopixel_set_matrix_color" block="%strip|set matrix color at x %x|y %y|to %rgb=neopixel_colors|" 
+        //% blockId="neopixel_set_matrix_color" block="%strip|set matrix color at x %x|y %y|to %rgb=neopixel_colors" 
         //% weight=4
         //% parts="neopixel" advanced=true
         setMatrixColor(x: number, y: number, rgb: number) {
