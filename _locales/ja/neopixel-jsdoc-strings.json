@@ -1,33 +1,33 @@
 {
-  "neopixel.create": "�w�肳�ꂽ�|�[�g�ɐڑ�����Ă���A�w��̐���NeoPixel�ɑΉ�����V�����h���C�o�[�𐶐����܂��B���[�h�ɂ����NeoPixel�̐��m�Ȏ�ނ����܂�܂��B",
-  "neopixel.Strip.range": "�w�肳�ꂽ�h���C�o�[���Ǘ�����ꕔ��Ԃ�NeoPixel�ɑΉ�����V�����h���C�o�[�𐶐����܂��B",
+  "neopixel.create": "指定されたポートに接続されている、指定の数のNeoPixelに対応する新しいドライバーを生成します。モードによってNeoPixelの正確な種類が決まります。",
+  "neopixel.Strip.range": "指定されたドライバーが管理する一部区間のNeoPixelに対応する新しいドライバーを生成します。",
 
-  "neopixel.Strip.showRainbow": "���ׂĂ�NeoPixel�ɓ��F�̃p�^�[����\�����܂��B",
-  "neopixel.Strip.showColor": "���ׂẴs�N�Z�����w�肳�ꂽ�F�ɐݒ肵�A�\�����܂��B",
-  "neopixel.Strip.showBarGraph": "�w�肳�ꂽ�l���A�^����ꂽ�ő�l�ɑ΂��Ė_�O���t�Ƃ��ĕ\�����܂��B",
+  "neopixel.Strip.showRainbow": "すべてのNeoPixelに虹色のパターンを表示します。",
+  "neopixel.Strip.showColor": "すべてのピクセルを指定された色に設定し、表示します。",
+  "neopixel.Strip.showBarGraph": "指定された値を、与えられた最大値に対して棒グラフとして表示します。",
 
-  "neopixel.Strip.show": "���ׂĂ̕ύX��NeoPixel�ɑ��M���܂��B",
-  "neopixel.Strip.clear": "���ׂĂ�NeoPixel���I�t�ɂ��܂��B�ύX�𔽉f�����邽�߂ɂ́A���̌�Ɂu�w�肵���F�œ_������v���K�v�ł��B",
+  "neopixel.Strip.show": "すべての変更をNeoPixelに送信します。",
+  "neopixel.Strip.clear": "すべてのNeoPixelをオフにします。変更を反映させるためには、その後に「指定した色で点灯する」が必要です。",
 
-  "neopixel.hsl": "�F���E�ʓx�E���x�̒l��RGB�J���[�ɕϊ����܂��B",
+  "neopixel.hsl": "色相・彩度・明度の値をRGBカラーに変換します。",
 
-  "neopixel.Strip.shift": "LED��O���ɃV�t�g���A�󂢂��������[���ŃN���A���܂��B�ύX�𔽉f�����邽�߂ɂ́A���̌�Ɂu�w�肵���F�œ_������v���K�v�ł��B",
-  "neopixel.Strip.rotate": "LED ��O�����ɉ�]�����܂��B�ύX�𔽉f�����邽�߂ɂ́A���̌�Ɂu�w�肵���F�œ_������v���K�v�ł��B",
+  "neopixel.Strip.shift": "LEDを前方にシフトし、空いた部分をゼロでクリアします。変更を反映させるためには、その後に「指定した色で点灯する」が必要です。",
+  "neopixel.Strip.rotate": "LED を前方向に回転させます。変更を反映させるためには、その後に「指定した色で点灯する」が必要です。",
 
-  "neopixel.Strip.setPixelWhiteLED": "RGB+W LED �𓋍ڂ��� NeoPixel �̏ꍇ�A���F LED �̖��邳��ݒ肵�܂��B����́ARGB+W NeoPixel �ł̂ݓ��삵�܂��B�ύX�𔽉f�����邽�߂ɂ́A���̌�Ɂu�w�肵���F�œ_������v���K�v�ł��B",
-  "neopixel.Strip.setPixelColor": "LED���w�肳�ꂽ�F�ir�Ag�Ab �͂��ꂼ�� 0�`255 �͈̔́j�ɐݒ肵�܂��B�ύX�𔽉f�����邽�߂ɂ́A���̌�Ɂu�w�肵���F�œ_������v���K�v�ł��B",
-  "neopixel.Strip.length": "�h���C�o�[���Ǘ����Ă���NeoPixel�̐����擾���܂��B",
-  "neopixel.Strip.setBrigthness": "NeoPixel�̖��邳�i0�`255�j��ݒ肵�܂��B���̕ύX�͍���̑���ɂ̂݉e�����܂��B",
-  "neopixel.Strip.easeBrightness": "NeoPixel�̌��݂̐F���A���邳�ɉ����Ē������܂��B",
+  "neopixel.Strip.setPixelWhiteLED": "RGB+W LED を搭載した NeoPixel の場合、白色 LED の明るさを設定します。これは、RGB+W NeoPixel でのみ動作します。変更を反映させるためには、その後に「指定した色で点灯する」が必要です。",
+  "neopixel.Strip.setPixelColor": "LEDを指定された色（r、g、b はそれぞれ 0～255 の範囲）に設定します。変更を反映させるためには、その後に「指定した色で点灯する」が必要です。",
+  "neopixel.Strip.length": "ドライバーが管理しているNeoPixelの数を取得します。",
+  "neopixel.Strip.setBrigthness": "NeoPixelの明るさ（0～255）を設定します。この変更は今後の操作にのみ影響します。",
+  "neopixel.Strip.easeBrightness": "NeoPixelの現在の色を、明るさに応じて調整します。",
 
-  "neopixel.Strip.power": "���݂̃��C�g�\���ŏ�����d�� (mA) �𐄒肵�܂��B",
+  "neopixel.Strip.power": "現在のライト構成で消費される電流 (mA) を推定します。",
 
-  "neopixel.Strip.setMatrixWidth": "�}�g���b�N�X��ɔz�u���ꂽ�X�g���b�v�̃s�N�Z���z�u��ݒ肵�܂��B",
-  "neopixel.Strip.setMatrixColor": "�}�g���b�N�X��ɔz�u���ꂽ�X�g���b�v�̎w��s�N�Z���̐F��ݒ肵�܂��B�ύX�𔽉f�����邽�߂ɂ́A���̌�Ɂu�w�肵���F�œ_������v���K�v�ł��B",
+  "neopixel.Strip.setMatrixWidth": "マトリックス状に配置されたストリップのピクセル配置を設定します。",
+  "neopixel.Strip.setMatrixColor": "マトリックス状に配置されたストリップの指定ピクセルの色を設定します。変更を反映させるためには、その後に「指定した色で点灯する」が必要です。",
 
-  "neopixel.colors": "���m�̐F��RGB�l���擾���܂��B",
-  "neopixel.rgb": "�ԁE�΁E�̃`�����l����RGB�J���[�ɕϊ����܂��B",
+  "neopixel.colors": "既知の色のRGB値を取得します。",
+  "neopixel.rgb": "赤・緑・青のチャンネルをRGBカラーに変換します。",
 
-  "neopixel.HSL.rotateHue": "HSL�J���[�̐F������]�����܂��B",
-  "neopixel.HSL.toRGB": "HSL�J���[��RGB�J���[�ɕϊ����܂��B"
+  "neopixel.HSL.rotateHue": "HSLカラーの色相を回転させます。",
+  "neopixel.HSL.toRGB": "HSLカラーをRGBカラーに変換します。"
 }
