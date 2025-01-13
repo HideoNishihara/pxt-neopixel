@@ -36,7 +36,7 @@
 
   "neopixel.Strip.power|block": "%strip|の消費電流（mA）",
 
-  "neopixel.Strip.setMatrixWidth|block": "マトリックスの形状（width %width|rotation %rotation|chain %chain）",
+  "neopixel.Strip.setMatrixWidth|block": "マトリックスの形状（width %width|rotation %rotation|chain %chain|）",
   "neopixel.Strip.setMatrixColor|block": "マトリックスの座標 x %x|y %y|を %rgb=neopixel_colors|で点灯する",
 
   "neopixel.colors|block": "%color",
