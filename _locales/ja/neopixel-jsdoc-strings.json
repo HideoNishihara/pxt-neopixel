@@ -1,0 +1,33 @@
+{
+  "neopixel.create": "指定されたポートに接続されている、指定の数のNeoPixelに対応する新しいドライバーを生成します。モードによってNeoPixelの正確な種類が決まります。",
+  "neopixel.Strip.range": "指定されたドライバーが管理する一部区間のNeoPixelに対応する新しいドライバーを生成します。",
+
+  "neopixel.Strip.showRainbow": "すべてのNeoPixelに虹色のパターンを表示します。",
+  "neopixel.Strip.showColor": "すべてのピクセルを指定された色に設定し、表示します。",
+  "neopixel.Strip.showBarGraph": "指定された値を、与えられた最大値に対して棒グラフとして表示します。",
+
+  "neopixel.Strip.show": "すべての変更をNeoPixelに送信します。",
+  "neopixel.Strip.clear": "すべてのNeoPixelをオフにします。変更を反映させるためには、その後に「指定した色で点灯する」が必要です。",
+
+  "neopixel.hsl": "色相・彩度・明度の値をRGBカラーに変換します。",
+
+  "neopixel.Strip.shift": "LEDを前方にシフトし、空いた部分をゼロでクリアします。変更を反映させるためには、その後に「指定した色で点灯する」が必要です。",
+  "neopixel.Strip.rotate": "LED を前方向に回転させます。変更を反映させるためには、その後に「指定した色で点灯する」が必要です。",
+
+  "neopixel.Strip.setPixelWhiteLED": "RGB+W LED を搭載した NeoPixel の場合、白色 LED の明るさを設定します。これは、RGB+W NeoPixel でのみ動作します。変更を反映させるためには、その後に「指定した色で点灯する」が必要です。",
+  "neopixel.Strip.setPixelColor": "LEDを指定された色（r、g、b はそれぞれ 0～255 の範囲）に設定します。変更を反映させるためには、その後に「指定した色で点灯する」が必要です。",
+  "neopixel.Strip.length": "ドライバーが管理しているNeoPixelの数を取得します。",
+  "neopixel.Strip.setBrigthness": "NeoPixelの明るさ（0～255）を設定します。この変更は今後の操作にのみ影響します。",
+  "neopixel.Strip.easeBrightness": "NeoPixelの現在の色を、明るさに応じて調整します。",
+
+  "neopixel.Strip.power": "現在のライト構成で消費される電流 (mA) を推定します。",
+
+  "neopixel.Strip.setMatrixWidth": "マトリックス状に配置されたストリップのピクセル数を設定します。",
+  "neopixel.Strip.setMatrixColor": "マトリックス状に配置されたストリップのLEDを、指定した色（r、g、b は 0～255 の範囲）に設定します。変更を反映させるためには、その後に「指定した色で点灯する」が必要です。",
+
+  "neopixel.colors": "既知の色のRGB値を取得します。",
+  "neopixel.rgb": "赤・緑・青のチャンネルをRGBカラーに変換します。",
+
+  "neopixel.HSL.rotateHue": "HSLカラーの色相を回転させます。",
+  "neopixel.HSL.toRGB": "HSLカラーをRGBカラーに変換します。"
+}
